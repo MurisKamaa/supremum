@@ -1,0 +1,302 @@
+body {
+  background-color: rgba(226, 211, 211, 0.8);
+  margin: 0px;
+  padding: 0;
+}
+
+.top-section {
+  height: 100vh;
+  background: no-repeat url(images/top.jpg);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 10%;
+  /* height: 100vh; */
+  background: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.logoname {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo span {
+  font-size: 1.8rem;
+  color: green;
+}
+
+.desc {
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 0.1rem;
+  margin-top: 0px;
+  color: yellow;
+}
+
+.desc h5 {
+  color: green;
+  font-size: 0.6rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1rem;
+}
+
+.but1 {
+  background-color: white;
+  color: black;
+}
+
+#butt img {
+  width: 2rem;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.searchButton {
+  display: none;
+}
+
+.searchButtonActive {
+  display: absolute;
+}
+
+.navs {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigationSearch {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.top-section .message {
+  margin: 20vh 35% 35vh 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+}
+
+.top-section .message h2 {
+  font-weight: bold;
+  font-size: 2.2rem;
+  /* padding-bottom: 10px; */
+  margin: 2px 10px;
+}
+
+.top-section .message p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0 50px 0;
+  justify-items: center;
+  align-items: center;
+}
+
+.about-section #leftcolumn {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 2% 2% 2% 5%;
+  /* 20px 80px 20px 100px; */
+}
+
+#leftcolumn h2 {
+  font-weight: bold;
+  color: green;
+  font-size: 2rem;
+}
+
+#leftcolumn h3 {
+  font-weight: 500;
+  font-size: 2em;
+  margin: 0;
+}
+
+#leftcolumn p {
+  font-weight: 400;
+  font-size: 1.2em;
+  text-align: justify;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+/* .image {
+  background: center no-repeat url(images/thika_road.jfif);
+  background-size: 700px;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 20px 150px 20px 100px;
+} */
+
+.about-section img {
+  padding: 20px;
+  width: 50vw;
+  box-sizing: border-box;
+}
+
+.mandate {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  color: white;
+}
+
+.mandate h2 {
+  font-weight: 600;
+  margin-bottom: 0;
+  /* padding-top: 3em;
+  padding-bottom: 1.2em; */
+  font-size: 2em;
+}
+
+.mandate h3 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.functions {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  flex-wrap: wrap;
+  gap: 150px;
+  justify-content: center;
+  margin: 50px 300px;
+}
+
+.functions .func {
+  box-sizing: border-box;
+  border: 2px dashed rgb(255, 255, 0);
+  font-weight: 600;
+  width: 10rem;
+  height: 11rem;
+  transition: ease-in border 300ms;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.func img {
+  width: 5rem;
+}
+
+.func:hover {
+  box-sizing: border-box;
+  border: 2px dashed green;
+  width: 10rem;
+  height: 11rem;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  font-size: 1.2rem;
+}
+
+footer pre {
+  font-size: 1.2rem;
+  margin-top: 0px;
+  color: inherit;
+}
+
+footer .contacts p,
+footer .socials p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .contacts p img,
+footer .socials p img {
+  width: 2rem;
+}
+
+footer .socials {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+}
+
+.copyright p {
+  margin: 0px;
+  padding: 20px;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+
+@media screen and (max-width: 810px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 25%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-links {
+    gap: 15px;
+    font-size: 0.8rem;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-section #leftcolumn {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .about-section img {
+    width: 100vw;
+  }
+
+  .functions {
+    margin: 50px 30px;
+    gap: 50px;
+  }
+}
